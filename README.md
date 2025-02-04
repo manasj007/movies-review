@@ -1,104 +1,70 @@
-# Movies Review
+# Getting Started with Create React App
 
-## Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a full-stack web application for managing a movie watchlist, built using Java, Spring Boot, MongoDB, React.js, and Node.js. It enables users to create accounts, sign in, view and manage their personal watchlists, and add reviews to movies.
+## Available Scripts
 
-## Key Features
+In the project directory, you can run:
 
-User registration and authentication with JWT
-CRUD operations for managing movies in a watchlist
-Ability to add reviews to movies
-Secure API endpoints with JWT authentication
-User-friendly React.js frontend interface
+### `npm start`
 
-## Development Environment
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Backend:
-Java Development Kit (JDK)
-Spring Boot
-MongoDB (or other preferred database)
-MongoDB Java Driver
-### Frontend:
-React.js
-Node.js and npm
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## API Routes
+### `npm test`
 
-### Authentication:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`/signup`: Register a new user
+### `npm run build`
 
-`/login`: Log in a user and obtain a JWT token
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`/logout`: Log out a user
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Movie Management:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`/movies`: Get a list of all movies
+### `npm run eject`
 
-`/watchlist`: Get a user's watchlist (requires JWT)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-`/watchlist/add`: Add a movie to a user's watchlist (requires JWT)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-`/watchlist/remove`: Remove a movie from a user's watchlist (requires JWT)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-`/reviews/add`: Add a review to a movie (requires JWT)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Installation and Setup
+## Learn More
 
-#### Clone the repository:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```Bash
-git clone https://github.com/your-username/your-project-name.git
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### Install dependencies:
-Backend:
-```Bash
-cd backend
-mvn clean install
-```
-Frontend:
-```Bash
-cd frontend
-npm install
-```
-Configure database connection in backend/src/main/resources/application.properties
-Start the backend server:
-```Bash
-cd backend
-mvn spring-boot:run
-```
+### Code Splitting
 
-Start the frontend server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```Bash
-cd frontend
-npm start
-```
-## Usage
+### Analyzing the Bundle Size
 
-Access the application in your web browser, typically at http://localhost:3000
-Sign up or log in to create or access your watchlist
-Manage your watchlist by adding, removing, and reviewing movies
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Architecture Diagram
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/3bddd841-630f-4cd6-b079-400647eb7b2f)
+### Deployment
 
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/a625de37-cb48-4014-b513-ada73318616c)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-## Screenshots
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/1f0a37e8-ad9c-4e61-9ced-5df652f25de7)
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/d3973b63-3e20-42f0-87c0-30b542a091ca)
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/f5f296c3-2251-4aac-9855-69fffe6ad332)
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/fe8c2d2b-38d7-4ed3-b4ce-15dd36afcdf5)
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/5dd681c7-a179-4400-af30-e5a1e34e9e84)
-![image](https://github.com/LordHarsh/movies-review/assets/56753150/f7ee6194-4af0-43cc-a3a6-d763384e63f1)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
